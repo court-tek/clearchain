@@ -14,7 +14,7 @@
     </mj-section>
     <mj-section>
         <mj-column>
-            <mj-image width="380px" align="left" src="assets/img/housecrop.png" />
+            <mj-image width="380px" align="left" src="" />
         </mj-column>
     </mj-section>
     <mj-section background-color="#0F3D54">
