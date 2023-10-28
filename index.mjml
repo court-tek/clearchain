@@ -1,6 +1,16 @@
 <mjml>
   <mj-head>
     <mj-style inline="inline">
+      .infograph1__h1 {
+        color: #fffff1;
+        font-size: 1.3rem;
+      }
+
+      .infograph1__para {
+        font-size: .9rem;
+        color: #fffff1;
+        line-height: 1.5;
+      }
     </mj-style>
   </mj-head>
   <mj-body>
@@ -10,6 +20,40 @@
     <mj-section padding-bottom="0" padding-left="0">
       <mj-column>
         <mj-image padding-left="0" padding-right="0" padding-top="0" padding-bottom="0" width="600px" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/header.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#026396">
+      <mj-column css-class="infograph1">
+        <mj-image src="" alt="Clear Chain" />
+        <mj-text>
+            <h1 class="infograph1__h1">So what's the solution?</h1>
+            <p class="infograph1__para">
+              Clear Chain is designed to empower buyers<br>
+              and sellers through transparency and<br>
+              accountability. It seamlessly connects all<br>
+              participents in a property chain - buyers,<br>
+              sellers, estate agents, and coveyancers - <br>
+              imto a single online platform, ensuring a <br>
+              smoother transaction. It makes managing your <br>
+              property chains easier than ever before. How?
+            </p>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="infograph1">
+        <mj-image src="" alt="Clear Chain" />
+        <mj-text>
+            <h1 class="infograph1__h1">So what's the solution?</h1>
+            <p class="infograph1__para">
+              Clear Chain is designed to empower buyers<br>
+              and sellers through transparency and<br>
+              accountability. It seamlessly connects all<br>
+              participents in a property chain - buyers,<br>
+              sellers, estate agents, and coveyancers - <br>
+              imto a single online platform, ensuring a <br>
+              smoother transaction. It makes managing your <br>
+              property chains easier than ever before. How?
+            </p>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
