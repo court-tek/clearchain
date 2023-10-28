@@ -7,41 +7,10 @@
     <mj-raw>
       <!--header  -->
     </mj-raw>
-    <mj-section padding-bottom="0">
-      <mj-column background-color="#026396">
-        <mj-text>
-          <p style="text-align: right; font-size: 20px; font-weight: 700; color: #fffffe; margin-bottom: 0 !important;">57% of Brits <span style="font-weight: 300;">find moving home to be the</span></p><br>
-          <p style="text-align: right; font-size: 30px; font-weight: 700; color: #fffffe; margin-top: 0 !important;">most stressful life event</p>
-          <p style="text-align: right; color: #fffffe; margin-top: 25px;">And it's easy to see why...</p>
-        </mj-text>
+    <mj-section padding-bottom="0" padding-left="0">
+      <mj-column>
+        <mj-image padding-left="0" padding-right="0" padding-top="0" padding-bottom="0" width="600px" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/header.png" />
       </mj-column>
-    </mj-section>
-    <mj-raw>
-      <!-- image section -->
-    </mj-raw>
-    <mj-section padding-top="0" padding-bottom="0">
-      <mj-column background-color="#026396" padding="0">
-        <mj-image padding-bottom="0" padding-left="0" width="380px" align="left" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/housecrop.png" />
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      <!-- arrow section -->
-    </mj-raw>
-    <mj-section padding-top="0">
-      <mj-group>
-        <mj-column background-color="#0F3D54" padding-top="0" padding-right="0" padding-bottom="0" padding-left="0">
-          <mj-image padding-left="10px" padding-bottom="20px" padding-top="20px" width="80%" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/circletext1.png" />
-        </mj-column>
-        <mj-column background-color="#0F3D54" padding-top="0" padding-right="0" padding-bottom="0" padding-left="0">
-          <mj-image padding-left="10px" padding-bottom="20px" padding-top="20px" width="80%" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/circletext1.png" />
-        </mj-column>
-        <mj-column background-color="#0F3D54" padding-top="0" padding-right="0" padding-bottom="0" padding-left="0">
-          <mj-image padding-left="10px" padding-bottom="20px" padding-top="20px" width="80%" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/circletext1.png" />
-        </mj-column>
-        <mj-column background-color="#0F3D54" padding-top="0" padding-right="0" padding-bottom="0" padding-left="0">
-          <mj-image padding-left="10px" padding-bottom="20px" padding-top="20px" width="80%" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/circletext1.png" />
-        </mj-column>
-      </mj-group>
     </mj-section>
   </mj-body>
 </mjml>
