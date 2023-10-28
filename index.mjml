@@ -3,12 +3,25 @@
     <mj-raw>
          <!--header  -->
     </mj-raw>
-    <mj-section>
-      <mj-column>
+    <mj-section padding-bottom="0">
+      <mj-column background-color="#026396">
         <mj-text>
-            <p>57% of Brits <span>find moving home to be the</span></p><br>
-            <p>most stressful life event</p>
-            <p>And it's easy to see why...</p>
+            <p style="text-align: right; font-size: 20px; font-weight: 700; color: #fffffe; margin-bottom: 0 !important;">57% of Brits <span style="font-weight: 300;">find moving home to be the</span></p><br>
+            <p style="text-align: right; font-size: 30px; font-weight: 700; color: #fffffe; margin-top: 0 !important;">most stressful life event</p>
+            <p style="text-align: right; color: #fffffe; margin-top: 25px;">And it's easy to see why...</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0" padding-bottom="0">
+      <mj-column background-color="#026396" padding="0">
+        <mj-image padding-bottom="0" padding-left="0" width="380px" align="left" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/housecrop.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0">
+      <mj-column background-color="#0F3D54" padding-top="0" padding-right="0" padding-bottom="0" padding-left="0">
+        <mj-text>
+          <p style="color: #0F3D54;">hello world</p>
+          <p style="color: #0F3D54;">hello world</p>
         </mj-text>
       </mj-column>
     </mj-section>
