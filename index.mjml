@@ -1,7 +1,16 @@
 <mjml>
   <mj-body>
     <mj-raw>
-        
+         <!--header  -->
     </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text>
+            <p>57% of Brits <span>find moving home to be the</span></p><br>
+            <p>most stressful life event</p>
+            <p>And it's easy to see why...</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
