@@ -3,13 +3,23 @@
     <mj-raw>
         <!-- header -->
     </mj-raw>
-    <mj-section>
+    <mj-section background-color="#026396">
       <mj-column>
-        <mj-text color="#ffffff1" font-size="18px" font-weight="600">
+        <mj-text color="#fffff1" font-size="18px" font-weight="600" align="right" line-height="1.5">
             57% of Brits <span style="font-weight: 300">find moving home to be the</span><br>
-            most stressful life event
+            <span style="font-size: 25px;">most stressful life event<span><br>
+            <span style="font-size: 15px; font-weight: 300;">and it's easy to see why...</span>
         </mj-text>
       </mj-column>
+    </mj-section>
+    <mj-section>
+        <mj-column>
+            <mj-image width="380px" align="left" src="assets/img/housecrop.png" />
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#0F3D54">
+        <mj-column>
+        </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
