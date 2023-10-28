@@ -1,7 +1,16 @@
 <mjml>
+  <mj-head>
+    <mj-style inline="inline">
+    </mj-style>
+  </mj-head>
   <mj-body>
     <mj-raw>
-        
+      <!--header  -->
     </mj-raw>
+    <mj-section padding-bottom="0" padding-left="0">
+      <mj-column>
+        <mj-image padding-left="0" padding-right="0" padding-top="0" padding-bottom="0" width="600px" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/header.png" />
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
