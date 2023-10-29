@@ -1,15 +1,181 @@
 <mjml>
   <mj-head>
+    <mj-style>
+      @media (max-width: 480px) {
+        * {
+          border: none !important;
+        }
+
+        .infograph1__image {}
+
+        .infograph2__image {
+          display: none;
+        }
+
+        .infograph3__image {
+          display: none;
+        }
+
+        .infograph4__image {
+          display: none !important;
+        }
+
+        .infograph2__h1bg {
+          font-size: 1.3rem;
+        }
+
+        .infograph3__h1bg {
+          text-align: left !important;
+          font-size: 1.3rem;
+        }
+
+        .infograph4__h1bg {
+          font-size: 1.3rem !important;
+        }
+
+        .infograph3__para {
+          text-align: left !important;
+        }
+
+
+      }
+    </mj-style>
     <mj-style inline="inline">
+      * {
+        border: none !important;
+      }
+
       .infograph1__h1 {
         color: #fffff1;
         font-size: 1.3rem;
+        padding-top: 45px;
       }
 
       .infograph1__para {
         font-size: .9rem;
         color: #fffff1;
         line-height: 1.5;
+        inline-size: 300px;
+        overflow: hidden;
+      }
+
+      .infograph1__image-section {
+        padding-right: 0 !important;
+        z-index: 20;
+      }
+
+      .infograph1__image {
+        padding-right: 0 !important;
+      }
+
+      .infograph1__h1bg {
+        background: #0F3D54 !important;
+        color: white;
+        font-size: 1.2rem;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .infograph2__image {
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+        padding-top: 20px !important;
+        padding-left: 40px !important;
+      }
+
+      .infograph2__h1bg {
+        color: #fffff1;
+        background: #0F3D54 !important;
+        padding: 10px !important;
+        margin-top: 0 !important;
+        border-radius: 10px !important;
+      }
+
+      .infograph2__para {
+        font-size: .9rem;
+        color: #fffff1;
+        line-height: 1.5;
+      }
+
+      .infograph3__h1bg {
+        color: #fffff1;
+        background: #0F3D54 !important;
+        padding: 10px !important;
+        margin-top: 0 !important;
+        border-radius: 10px !important;
+        text-align: right;
+      }
+
+      .infograph3__para {
+        text-align: right;
+        font-size: .9rem;
+        color: #fffff1;
+        line-height: 1.5;
+        text-align: right;
+      }
+
+      .infograph3__image {
+        padding-right: 40px !important;
+        margin-right: 0 !important;
+        padding-top: 20px !important;
+        padding-left: 0 !important;
+      }
+
+      .infograph4__h1bg {
+        color: #fffff1;
+        background: #0F3D54 !important;
+        padding: 10px !important;
+        margin-top: 0 !important;
+        border-radius: 10px !important;
+        text-align: left;
+      }
+
+      .infograph4__para {
+        text-align: right;
+        font-size: .9rem;
+        color: #fffff1;
+        line-height: 1.5;
+        text-align: left;
+      }
+
+      .infograph4__image {
+        padding-right: 10px !important;
+        margin-right: 0 !important;
+        padding-top: 20px !important;
+        padding-left: 40px !important;
+      }
+
+      .infograph5__h1-normal {
+        font-weight: 300;
+        color: #fffff1;
+      }
+
+      .infograph5__h1bg {
+        background: #F29543 !important;
+        padding: 10px !important;
+        border-radius: 10px;
+        color: white;
+        font-size: 1.4rem;
+      }
+
+      .infograph5__para {
+        text-align: right;
+        font-size: .9rem;
+        color: #fffff1;
+        line-height: 1.5;
+        text-align: left;
+      }
+
+      .infograph5__font-weight {
+        font-weight: 300;
+      }
+
+      .infograph5__image {
+        padding-right: 0 !important;
+
       }
     </mj-style>
   </mj-head>
@@ -26,34 +192,108 @@
       <mj-column css-class="infograph1">
         <mj-image src="" alt="Clear Chain" />
         <mj-text>
-            <h1 class="infograph1__h1">So what's the solution?</h1>
-            <p class="infograph1__para">
-              Clear Chain is designed to empower buyers<br>
-              and sellers through transparency and<br>
-              accountability. It seamlessly connects all<br>
-              participents in a property chain - buyers,<br>
-              sellers, estate agents, and coveyancers - <br>
-              imto a single online platform, ensuring a <br>
-              smoother transaction. It makes managing your <br>
-              property chains easier than ever before. How?
-            </p>
+          <h1 class="infograph1__h1">So what's the solution?</h1>
+          <p class="infograph1__para">
+            Clear Chain is designed to empower buyers
+            and sellers through transparency and
+            accountability. It seamlessly connects all
+            participents in a property chain - buyers,
+            sellers, estate agents, and coveyancers -
+            imto a single online platform, ensuring a
+            smoother transaction. It makes managing your
+            property chains easier than ever before. How?
+          </p>
         </mj-text>
       </mj-column>
-      <mj-column css-class="infograph1">
-        <mj-image src="" alt="Clear Chain" />
+      <mj-column css-class="infograph1__image-section">
+        <mj-image css-class="infograph1__image" align="right" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/holdingphone.png" alt="phone in hand" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- info section 2 -->
+    </mj-raw>
+    <mj-section background-color="#026396">
+      <mj-column css-class="infograph2" width="30%">
+        <mj-image css-class="infograph2__image" width="140px" align="left" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/app1-fotor-2023102414319.png" alt="Clear Chain" />
+      </mj-column>
+      <mj-column width="70%">
         <mj-text>
-            <h1 class="infograph1__h1">So what's the solution?</h1>
-            <p class="infograph1__para">
-              Clear Chain is designed to empower buyers<br>
-              and sellers through transparency and<br>
-              accountability. It seamlessly connects all<br>
-              participents in a property chain - buyers,<br>
-              sellers, estate agents, and coveyancers - <br>
-              imto a single online platform, ensuring a <br>
-              smoother transaction. It makes managing your <br>
-              property chains easier than ever before. How?
-            </p>
+          <h1 class="infograph2__h1bg">Your Property, Your Control</h1>
+          <p class="infograph2__para">
+            With automatic notifications, as soon as things
+            change, your always up to date. See what stage
+            everyone in the chain is at, when you're likely to
+            complete, and if anything is being held up and why.
+          </p>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- info section 3 -->
+    </mj-raw>
+    <mj-section background-color="#026396">
+      <mj-column width="70%">
+        <mj-text>
+          <h1 class="infograph3__h1bg">Speed up Your Deals</h1>
+          <p class="infograph3__para">
+            Our program breaks down each stage of the property
+            transaction into steps, personalised to each user.
+            Tracking each user's progress as they go, everyone's
+            informed sooner, speeding up the process.
+          </p>
+        </mj-text>
+      </mj-column width="30%">
+      <mj-column css-class="infograph3" width="30%">
+        <mj-image css-class="infograph3__image" width="140px" align="right" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/app1-fotor-2023102414319.png" alt="Clear Chain" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- info section 4 -->
+    </mj-raw>
+    <mj-section background-color="#026396">
+      <mj-column css-class="infograph4" width="30%">
+        <mj-image css-class="infograph4__image" width="140px" align="right" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/app1-fotor-2023102414319.png" alt="Clear Chain" />
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text>
+          <h1 class="infograph4__h1bg">No More Chasing Updates</h1>
+          <p class="infograph4__para">
+            Stop chasing for updates with instant access to the latest information. Share documents, communicate directly
+            with other parties and lock in completion dates ahead of time. All through the app.
+          </p>
+        </mj-text>
+      </mj-column width="30%">
+    </mj-section>
+    <mj-raw>
+      <!-- info section 5 -->
+    </mj-raw>
+    <mj-section background-color="#026396" padding-bottom="0">
+      <mj-column>
+        <mj-text>
+          <h1 class="infograph5__h1-normal">
+            With Clear Chain,
+          </h1>
+          <h1 class="infograph5__h1bg">
+            <span class="infograph5__font-weight">there's</span> Clear Success
+          </h1>
+          <p class="infograph5__para">
+            Stop chasing for updates with instant access to the latest information. Share documents, communicate directly
+            with other parties and lock in completion dates ahead of time. All through the app.
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="infograph5">
+        <mj-image css-class="infograph5__image" padding-top="69px" padding-bottom="0" align="right" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/laptop01.png" alt="Clear Chain" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- info section 5 -->
+    </mj-raw>
+    <mj-section background-color="#0F3D54">
+      <mj-column>
+        <mj-button font-family="Helvetica" background-color="#E51175" color="white">
+          Register Now
+        </mj-button>
       </mj-column>
     </mj-section>
   </mj-body>
