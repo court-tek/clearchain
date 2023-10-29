@@ -27,6 +27,7 @@
         .infograph3__h1bg {
           text-align: left !important;
           font-size: 1.3rem;
+          margin-left: 0 !important;
         }
 
         .infograph4__h1bg {
@@ -37,7 +38,9 @@
           text-align: left !important;
         }
 
-
+        .logo {
+          padding-left: 10px !important;
+        }
       }
     </mj-style>
     <mj-style inline="inline">
@@ -48,7 +51,7 @@
       .infograph1__h1 {
         color: #fffff1;
         font-size: 1.3rem;
-        padding-top: 45px;
+        padding-top: 10px;
       }
 
       .infograph1__para {
@@ -107,6 +110,8 @@
         margin-top: 0 !important;
         border-radius: 10px !important;
         text-align: right;
+        width:70%;
+        margin-left: 95px;
       }
 
       .infograph3__para {
@@ -177,21 +182,25 @@
         padding-right: 0 !important;
 
       }
+
+      .footer-cta {
+        padding: 5px 0 !important;
+      }
     </mj-style>
   </mj-head>
   <mj-body>
     <mj-raw>
       <!--header  -->
     </mj-raw>
-    <mj-section padding-bottom="0" padding-left="0">
+    <mj-section padding-top="0" padding-bottom="0" padding-left="0">
       <mj-column>
         <mj-image padding-left="0" padding-right="0" padding-top="0" padding-bottom="0" width="600px" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/header.png" />
       </mj-column>
     </mj-section>
     <mj-section background-color="#026396">
       <mj-column css-class="infograph1">
-        <mj-image src="" alt="Clear Chain" />
-        <mj-text>
+        <mj-image css-class="logo" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/clearchainlogo.png" alt="Clear Chain" />
+        <mj-text padding-top="0">
           <h1 class="infograph1__h1">So what's the solution?</h1>
           <p class="infograph1__para">
             Clear Chain is designed to empower buyers
@@ -267,31 +276,17 @@
     <mj-raw>
       <!-- info section 5 -->
     </mj-raw>
-    <mj-section background-color="#026396" padding-bottom="0">
+    <mj-section padding-top="0" padding-bottom="0" padding-left="0">
       <mj-column>
-        <mj-text>
-          <h1 class="infograph5__h1-normal">
-            With Clear Chain,
-          </h1>
-          <h1 class="infograph5__h1bg">
-            <span class="infograph5__font-weight">there's</span> Clear Success
-          </h1>
-          <p class="infograph5__para">
-            Stop chasing for updates with instant access to the latest information. Share documents, communicate directly
-            with other parties and lock in completion dates ahead of time. All through the app.
-          </p>
-        </mj-text>
-      </mj-column>
-      <mj-column css-class="infograph5">
-        <mj-image css-class="infograph5__image" padding-top="69px" padding-bottom="0" align="right" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/laptop01.png" alt="Clear Chain" />
+        <mj-image padding-left="0" padding-right="0" padding-top="0" padding-bottom="0" width="600px" src="https://raw.githubusercontent.com/court-tek/clearchain/main/assets/img/clearctaimg.png" />
       </mj-column>
     </mj-section>
     <mj-raw>
       <!-- info section 5 -->
     </mj-raw>
-    <mj-section background-color="#0F3D54">
+    <mj-section css-class="footer-cta" background-color="#0F3D54">
       <mj-column>
-        <mj-button font-family="Helvetica" background-color="#E51175" color="white">
+        <mj-button css-class="cta" href="https://beta.clearchain.house/?location=banner&state=signUp" font-family="Helvetica" background-color="#E51175" color="white">
           Register Now
         </mj-button>
       </mj-column>
